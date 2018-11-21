@@ -1,0 +1,68 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  height: 667px;
+  width: 375px;
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.title{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Chalkduster", monospace;
+  background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+  text-shadow: 4px -4px black, 3px -3px white;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+}
+
+.card{
+  width: 80%;
+  margin:0 auto;
+  font-family: "Chalkduster", monospace;
+  border-radius: 20px;
+}
+
+.resultTitle{
+  color:#eb2f96;
+  margin-top: -5px;
+}
+
+
+.ant-input-lg {
+  font-family: 'Chalkduster';
+}
+
+.ant-cascader-menu-item{
+  font-family: 'Chalkduster';
+}
+
+.button{
+  border-radius: 20px;
+}
+
+.ant-list-item-content-single {
+  font-family: 'Chalkduster';
+}
+
+.ant-input-number-lg input{
+  font-family: 'Chalkduster';
+}
+
+.ant-cascader-input.ant-input {
+  font-family: 'Chalkduster';
+}
+
+
+.ant-btn:not([disabled]):hover {
+  font-family: 'Chalkduster';
+}
